@@ -1,0 +1,4 @@
+interface:
+  display_name: "waytoaic · 评论到产品机会"
+  short_description: "先验证评论证据，再找到真问题，输出产品机会与运营迭代决策卡"
+  default_prompt: "使用 $waytoaic-review-to-opportunity 分析这款产品的评论，先判断置信度，再按人群、场景、需求和解决方案拆解，输出有证据的产品与运营建议。"

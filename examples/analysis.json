@@ -1,0 +1,103 @@
+{
+  "author": "waytoaic",
+  "completion": "complete",
+  "reviewed_ids": [
+    "S1"
+  ],
+  "findings": [
+    {
+      "id": "P1",
+      "problem": "模拟：清洁时边角抬起，根因待验证",
+      "people": "模拟家庭用户",
+      "scene": "使用两周后清洁，工具与地面未知",
+      "need": "推断：清洁过程稳定",
+      "solution": "当前完整产品，规格未知",
+      "confidence_reason": "仅为合成示例，不代表真实需求；单条无图片，不能外推",
+      "next_test": "真实数据收集后，记录工具、地面与边角/整体差异",
+      "support_ids": [
+        "S1"
+      ],
+      "counter_ids": [],
+      "quotes": [
+        {
+          "review_id": "S1",
+          "text": "After two weeks, the corner lifts during cleaning."
+        }
+      ],
+      "gaps": [
+        "真实评论与反例",
+        "独立人数",
+        "图片和具体工具条件"
+      ],
+      "status": "hypothesis",
+      "applicability": "unknown"
+    }
+  ],
+  "actions": [
+    {
+      "type": "new_product",
+      "finding_ids": [
+        "P1"
+      ],
+      "status": "hypothesis",
+      "proposal": "模拟机会：降低清洁负担的完整产品，需求未证实",
+      "verification": "取得真实证据，确认条件后开展对照验证",
+      "acceptance": "仅示例；由业务方在真实测试前确定成功判据",
+      "gaps": [
+        "无真实需求或效果数据"
+      ]
+    },
+    {
+      "type": "product_iteration",
+      "finding_ids": [
+        "P1"
+      ],
+      "status": "hypothesis",
+      "proposal": "模拟方向：验证边角结构与工具兼容性",
+      "verification": "取得真实证据，确认条件后开展对照验证",
+      "acceptance": "仅示例；由业务方在真实测试前确定成功判据",
+      "gaps": [
+        "无真实需求或效果数据"
+      ]
+    },
+    {
+      "type": "listing",
+      "finding_ids": [
+        "P1"
+      ],
+      "status": "hypothesis",
+      "proposal": "模拟方向：补充经验证的使用条件说明",
+      "verification": "取得真实证据，确认条件后开展对照验证",
+      "acceptance": "仅示例；由业务方在真实测试前确定成功判据",
+      "gaps": [
+        "无真实需求或效果数据"
+      ]
+    },
+    {
+      "type": "search_terms",
+      "finding_ids": [
+        "P1"
+      ],
+      "status": "hypothesis",
+      "proposal": "仅检索方向：人群 × 场景 × 需求，暂无已核实关键词",
+      "verification": "取得真实证据，确认条件后开展对照验证",
+      "acceptance": "仅示例；由业务方在真实测试前确定成功判据",
+      "gaps": [
+        "无真实需求或效果数据"
+      ]
+    },
+    {
+      "type": "asin_targeting",
+      "finding_ids": [
+        "P1"
+      ],
+      "status": "blocked",
+      "proposal": "缺少商品证据，不提供虚构 ASIN",
+      "verification": "取得真实证据，确认条件后开展对照验证",
+      "acceptance": "仅示例；由业务方在真实测试前确定成功判据",
+      "gaps": [
+        "无真实需求或效果数据"
+      ]
+    }
+  ]
+}
