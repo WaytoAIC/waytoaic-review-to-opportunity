@@ -65,7 +65,7 @@
 ---
 # 评论到产品机会 · Review to Opportunity
 
-作者 / Author: **waytoaic** · Version **1.1.0**
+作者 / Author: **waytoaic** · Version **1.1.1**
 
 先判断评论置信度，再按「人群 → 场景 → 需求 → 解决方案」拆解，将证据连接到完整产品机会、产品迭代、Listing、广告搜索词及定投 ASIN。默认输出可搜索、可筛选、可切换决策卡的离线 HTML。
 

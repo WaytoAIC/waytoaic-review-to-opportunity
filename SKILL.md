@@ -3,7 +3,7 @@ name: waytoaic-review-to-opportunity
 description: 从电商评论中判断证据置信度，按人群、场景、需求、解决方案找到真问题，形成新产品机会、产品迭代、Listing、搜索词及定投 ASIN 决策卡。用于评论驱动的选品与产品运营优化，不替代实际投放执行。
 metadata:
   author: waytoaic
-  version: 1.1.0
+  version: 1.1.1
   validation: verified-workflow-2026-09-16
   validation_scope: workflow-and-evidence-integrity; see references/validation.md
 ---

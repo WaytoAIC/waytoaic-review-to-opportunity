@@ -4,6 +4,11 @@
 
 - 暂无 / None.
 
+## 1.1.1 — 2026-10-12
+
+- 验证记录去掉真实案例的评论数量分布，只保留方法说明。
+- Validation notes no longer include a real case's review-count distribution; only the method is kept.
+
 ## 1.1.0 — 2026-09-16
 
 - 新增离线 HTML：五类决策页签、评论检索、证据筛选。
